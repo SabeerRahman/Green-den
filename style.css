@@ -1,0 +1,313 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p
+{
+  font-family: Roboto;
+  margin: 0;
+}
+a
+{
+  text-decoration: none;
+}
+/* Header class */
+.header
+{
+  width: 100%;
+  height: 50px;
+  background-color: #aecdc9;
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 4px;
+  padding: 4px;
+}
+.greemy-link
+{
+  padding-left: 10px;
+  font-size: 32px;
+  color: #04080F;
+  font-weight: bold;
+  font-family: Roboto;
+  padding-right: 800px;
+}
+.nav-bar
+{
+  padding-left: 30px;
+  font-family: Roboto;
+  color: #04080F;
+  font-size: 20px;
+}
+/* Header Content */
+.header-image
+{
+  position: absolute;
+  right: 70px;
+  top: 90px;
+  mix-blend-mode: darken;
+}
+.header-content
+{
+  padding-left: 60px;
+  padding-top: 20px;
+  height: 340px;
+  background-color: #aecdc9;
+  
+}
+.h1-tag
+{
+  font-size: 60px;
+  font-family: Roboto;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-top: 50px;
+}
+.p-tag
+{
+  font-weight: bold;
+}
+.header-buttons
+{
+  padding: 10px;
+  background-color: #04080F;
+  color: white;
+  width: 120px;
+  margin-bottom: 20px;
+}
+.span-tag
+{
+  font-weight: bold;
+}
+.p-span-tag
+{
+  color: gray;
+}
+/* About us div */
+.about-us
+{
+  margin-top: 10px;
+  margin-bottom:50px;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
+.h2-tag
+{
+  font-family: Roboto;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 8px;
+  margin: 0;
+  padding-bottom: 0px;
+}
+.box-image
+{
+  width: 50px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+.box
+{
+  width: 250px;
+  height: 225px;
+  border: 1px solid black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.boxes
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.content-box
+{
+  padding-top: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content-name
+{
+  padding-top: 0px;
+  padding-bottom: 6px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+/* section-image div */
+
+.section-image
+{
+background-color: aquamarine;
+}
+.image-container
+{
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 60px; */
+}
+.box1,.box3
+{
+  position: relative;
+  bottom: 20px;
+}
+.box2
+{
+  margin-right: 400px;
+  margin-left: 400px;
+  padding-top: 40px;
+}
+.plant-tag,.plant2-tag
+{
+  text-align: center;
+  font-weight: bold;
+}
+.under-text
+{
+  font-family: Roboto;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
+/* Best Seller div */
+.best-seller
+{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.image-gallery
+{
+  
+  display: flex;
+  justify-content: space-between; 
+}
+.flower-img
+{
+  width: 250px;
+}
+.seller-tag
+{
+  font-weight: bold;
+  font-family: Roboto;
+  padding-bottom: 6px;
+  font-size: 30px;
+}
+.content-seller
+{
+  text-align: center;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.center-4
+{
+  margin-right: 20px;
+}
+/* Web Review Div */
+.web-review
+{
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right:25px ;
+}
+.content-client-sayings
+{
+  background-color: #aecdc9;
+  width: 1fr;
+  height: 75vh;
+  display: flex;
+  
+}
+.content-client
+{
+  padding-top: 100px;
+  padding-left: 100px; 
+  
+}
+.happy-client
+{
+  font-size: 60px;
+  font-weight: bold;
+  
+}
+.para-client
+{
+  font-family: Roboto;
+  font-size: 19px;
+}
+.girl
+{
+  position: relative;
+  top: -80px;
+  left: -60px;
+  width: 300px;
+  height: 400px;
+}
+/* Web News Div */
+.web-news
+{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.content-news
+{
+  text-align: center;
+}
+.news-letter
+{
+  margin-bottom: 2px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.signup-para
+{
+  margin-bottom: 6px;
+}
+.text-box
+{
+  width: 1000px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.subscribe-button
+{
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  background-color: #04080F;
+  color: white;  
+  cursor: pointer;
+}
+/* Footer Div */
+.footer-div
+{
+  background-color: #aecdc9;
+  width: 1fr;
+  height: 220px;
+  padding-left: 30px;
+  padding-top: 60px;
+}
+.social-media
+{
+  width: 30px;
+  padding-left: 4px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.greeny-h1
+{
+  font-family: Roboto;
+  margin-bottom: 4px;
+  font-size: 40px;
+}
+.footer-para
+{
+  margin-bottom: 6px;
+}
+.greenday
+{
+  /* margin-top: 12px; */
+}
